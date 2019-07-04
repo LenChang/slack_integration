@@ -1,0 +1,19 @@
+{
+  "name": "slack_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gogo": "cross-env NODE_ENV=dev node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/webhook": "^5.0.0",
+    "config": "^3.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
